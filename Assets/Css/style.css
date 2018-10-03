@@ -41,22 +41,24 @@ body {
 
 #name {
         font-weight: 700;
-        line-height: 90px;
+        line-height: 60px;
         color: #fff;
         font-size: 30px;
         font-family: 'K2D', sans-serif;
         background-color: #4aaaa5;
         text-align: center;
         float: left;
-        width: 300px;
-        height: 70px;
-        font-size: 30px;
+        padding: 0px 20px 0px 20px;
         margin-top: 0;
         margin-bottom: 0;
+        display: block;
+        
+    
         }
 #container-1 {
     width: 960px;
     margin: 0 auto;
+    max-width: 100%;
 }
 .card-body #image {
     box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; 
@@ -74,6 +76,7 @@ body {
 }
 .nav-link {
     font-weight: bold;
+    margin-top: 20px;
 }
 .color {
     background-color: rgb(200, 241, 241);
